@@ -1,16 +1,58 @@
-# quiz_app
 
-A new Flutter project.
+# Anime Quiz App
+
+An interactive Flutter quiz application focused on anime trivia. Test your knowledge, challenge your friends, and learn fun facts about your favorite anime series and characters!
+
+## Features
+
+- Beautiful, modern UI with gradient backgrounds
+- Multiple-choice questions about anime
+- Instant feedback on answers
+- Score summary and review of correct/incorrect answers
+- Responsive design for mobile and desktop
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. **Clone the repository:**
+   ```sh
+   git clone <your-repo-url>
+   ```
+2. **Navigate to the project directory:**
+   ```sh
+   cd quiz_app
+   ```
+3. **Install dependencies:**
+   ```sh
+   flutter pub get
+   ```
+4. **Run the app:**
+   ```sh
+   flutter run
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `lib/` - Main source code
+  - `main.dart` - App entry point
+  - `start_Screen.dart` - Start screen UI
+  - `quiz.dart` - Quiz logic and UI
+  - `result_Screen.dart` - Results and review screen
+  - `styles.dart` - Custom widgets and styles
+  - `background.dart` - Gradient background widget
+  - `data/question.dart` - Question data
+  - `models/QuizQuestion.dart` - Question model
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Customization
+
+- Add or edit questions in `lib/data/question.dart`
+- Change styles in `lib/styles.dart`
+- Update background gradient in `lib/background.dart`
+
+## Resources
+
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Anime Trivia](https://myanimelist.net/)
+
+---
+
+Made with ❤️ using Flutter.
